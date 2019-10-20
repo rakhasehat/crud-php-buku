@@ -1,0 +1,271 @@
+.navbar {
+  overflow: hidden;
+  background-color: #696764;
+  font-family: Arial;
+}
+
+.navbar:active{
+  cursor: default;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #B6B4B2;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+  background-image: url(../img/2.jpeg);
+  background-size: cover;
+}
+
+.head{
+  color: #D6DBDF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  left: 43.5%;
+  top: -0%;
+}
+
+.search{
+  position: absolute;
+  top: 3%;
+  left: 73%;
+}
+
+.cari{
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+.cari:focus{
+  transition: 0.3s;
+    border-bottom: 2px solid white;
+}
+
+.sumbit{
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.sumbit:hover{
+  transition: 0.3s;
+  background-color: #EAEDED;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
+
+.caribox{
+  border-radius: 5px;
+  background-color: #D5D8DC;
+}
+
+select[name='kategori']{
+  border: none;
+  width: 100px;
+  height: 25px;
+}
+.sumbit{
+  border: none;
+  width: 60px;
+  height: 25px;
+}
+
+input[name='cari']::placeholder{
+  color: black;
+}
+
+.content{
+  position: absolute;
+  left: 38%;
+  border-radius: 10px;
+  top: 20%;
+  background: rgba(0, 0, 0, .5);
+  width: 23%;
+  height: 63%;
+  box-shadow: 0 0 40px -10px;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+.box{
+  position: absolute;
+  left: 48%;
+  top: 72%;
+  outline: none;
+}
+
+.in{
+  position: absolute;
+  left: 20%;
+  background: transparent;
+  border: none;
+  width: 67%;
+  border-radius: 10px;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  color: white;
+  outline: none;
+}
+
+.box{
+  border: none;
+  height: 25px;
+  width: 140px;
+  background: transparent;
+  background-color: #17202A;
+  color: white;
+  transition: 0.3s;
+}
+
+.guru{
+  position: absolute;
+  left: 6%;
+  font-size: 20px;
+  color: #EAEDED;
+  top: 72%;
+}
+
+.in:focus{
+  transition: 0.3s;
+  border-bottom: 2px solid #566573;
+}
+
+input[name='btnSimpan']{
+  border: none;
+  position: absolute;
+  height: 40px;
+  width: 30%;
+  left: 6%;
+  top: 85%;
+  font-size: 18px;
+  outline: none;
+  background-color: white;
+}
+
+input[name='btnSimpan']:hover{
+  background-color: #D5DBDB;
+  cursor: pointer;
+}
+
+button[name='kembali']{
+  border: none;
+  outline: none;
+  position: absolute;
+  height: 40px;
+  width: 30%;
+  left: 63%;
+  top: 85%;
+  font-size: 18px;
+  background-color: white;
+}
+
+button[name='kembali']:hover{
+  background-color: #D5DBDB;
+  cursor: pointer;
+}
+
+.ic1{
+  height: 40px;
+  position: absolute;
+  left: 5%;
+  top: 15%;
+}
+
+.ic2{
+  height: 40px;
+  position: absolute;
+  left: 5%;
+  top: 29%;
+}
+
+.ic3{
+  height: 40px;
+  position: absolute;
+  left: 5%;
+  top: 42%;
+}
+
+.ic4{
+  height: 40px;
+  position: absolute;
+  left: 5%;
+  top: 56%;
+}
+
+.ic5{
+  height: 40px;
+  position: absolute;
+  left: 5%;
+  top: 69%;
+}
+
+img{
+  height: 50px;
+    position: absolute;
+    left: 39%;
+    top: 1%;
+}
